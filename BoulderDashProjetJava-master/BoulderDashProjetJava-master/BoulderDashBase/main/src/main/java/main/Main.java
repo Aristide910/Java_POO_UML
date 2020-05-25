@@ -7,7 +7,10 @@ import contract.GameLoop;
 
 
 public abstract class Main {
-
+/**
+ * 
+ * @param args
+ */
 	
     public static void main(final String[] args) {
  	GameLoop GL = new GameLoop();

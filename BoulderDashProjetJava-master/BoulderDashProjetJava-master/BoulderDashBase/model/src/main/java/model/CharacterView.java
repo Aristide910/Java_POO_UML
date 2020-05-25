@@ -8,8 +8,8 @@ public class CharacterView {
 	public CharacterView(char[][] c_map) {
 		v_map=c_map;
 	}
-	
-	public void moveView(){
+	 
+	public void moveView(){ 
 		int Px=0;
 		int Py=0;
 		for (int i=0; i<40; i++){

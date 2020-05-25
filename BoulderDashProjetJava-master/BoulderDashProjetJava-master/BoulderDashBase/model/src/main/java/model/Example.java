@@ -12,7 +12,7 @@ public class Example {
     private final int id;
 
     /** The name. */
-    private String    name;
+    private String    name; 
 
     /**
      * Instantiates a new example.

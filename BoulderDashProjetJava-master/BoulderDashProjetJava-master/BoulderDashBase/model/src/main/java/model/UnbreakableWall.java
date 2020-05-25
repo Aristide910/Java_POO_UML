@@ -7,14 +7,18 @@ import javax.swing.ImageIcon;
 
 
 public class UnbreakableWall extends Entity{
-	
+	/**
+	 * 
+	 * @param x
+	 * @param y
+	 */
 	public UnbreakableWall(int x, int y) {
 		super(x, y);
 	}
 
 	public void update()
 	{
-		
+		 
 	}
 	
 	public void draw(Graphics2D g2d)

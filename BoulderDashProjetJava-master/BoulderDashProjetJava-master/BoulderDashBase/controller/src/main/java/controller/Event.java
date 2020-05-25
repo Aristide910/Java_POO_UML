@@ -36,7 +36,7 @@ public class Event  {
 					j = 40;
 				}
 			}
-		}
+		} 
 		
 	// Up
         if(l==90){

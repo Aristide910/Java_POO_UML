@@ -7,7 +7,11 @@ import javax.swing.ImageIcon;
 
 
 public class LostScreen extends Entity  {
-
+/**
+ * 
+ * @param x
+ * @param y
+ */
 	public LostScreen(int x, int y) {
 		super(x, y);
 		// TODO Auto-generated constructor stub
@@ -16,7 +20,10 @@ public class LostScreen extends Entity  {
 	{
 		g2d.drawImage(getWSImg(), x, y, null);
 	}
-	
+	 /**
+	  * Show the game over image in case you loose   
+	  * @return
+	  */
 	public Image getWSImg()
 	{
 		ImageIcon ic = new ImageIcon("Image_jeu/WLScreen/gameOver.jpg");

@@ -3,11 +3,13 @@ package controller;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.Observable;
-
+/**
+ * The Class Controller.
+ */
 public class Controller implements KeyListener{
 
 public boolean ZKey = false;
-public boolean LEFTKey = false; 
+public boolean QKey = false; 
 public boolean SKey = false; 
 public boolean DKey = false; 
 public boolean WKey = false; 
@@ -25,8 +27,8 @@ public boolean EscapeKey = false;
 			ZKey=true;
 			System.out.println("z");
 		}
-		if(e.getKeyCode() == KeyEvent.VK_LEFT){
-			LEFTKey=true;
+		if(e.getKeyCode() == KeyEvent.VK_Q){
+			QKey=true;
 		}
 		if(e.getKeyCode() == KeyEvent.VK_S){
 			SKey=true;
@@ -51,8 +53,8 @@ public boolean EscapeKey = false;
 		if(e.getKeyCode() == KeyEvent.VK_Z){
 			ZKey=false;
 		}
-		if(e.getKeyCode() == KeyEvent.VK_LEFT){
-			LEFTKey=false;
+		if(e.getKeyCode() == KeyEvent.VK_Q){
+			QKey=false;
 		}
 		if(e.getKeyCode() == KeyEvent.VK_S){
 			SKey=false;

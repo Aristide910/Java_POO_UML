@@ -13,7 +13,7 @@ public class ViewFacade implements IView {
     /**
      * Instantiates a new view facade.
      */
-    public ViewFacade() {
+    public ViewFacade() { 
         super();
     }
 

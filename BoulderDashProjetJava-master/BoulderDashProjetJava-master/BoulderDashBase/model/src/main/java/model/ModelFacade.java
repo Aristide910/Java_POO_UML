@@ -14,7 +14,7 @@ public class ModelFacade implements IModel {
         super();
     }
 
-
+ 
     @Override
     public Example getExampleById(final int id) throws SQLException {
         return ExampleDAO.getExampleById(id);

@@ -2,7 +2,8 @@
  * 
  */
 /**
- * @author Geoffroy
+ * @author Aristide
  *
  */
 package contract;
+

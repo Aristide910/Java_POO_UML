@@ -10,7 +10,7 @@ import java.sql.ResultSet;
  * @version 1.0
  */
 public abstract class AbstractDAO {
-
+ 
     /**
      * Execute query.
      *

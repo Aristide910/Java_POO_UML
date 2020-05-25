@@ -7,13 +7,13 @@ import java.awt.event.KeyListener;
 public class DetectionTouches implements KeyListener{
 
 private boolean ZKey ;
-private boolean LEFTKey ; 
+private boolean QKey ; 
 private boolean SKey ; 
 private boolean DKey ; 
 private boolean WKey ; 
 private boolean XKey ; 
 private boolean EscapeKey ;
-
+ 
 
 
 	public DetectionTouches(){
@@ -28,8 +28,8 @@ private boolean EscapeKey ;
 			ZKey=true;
 			System.out.println("z"+ZKey);
 		}
-		if(e.getKeyCode() == KeyEvent.VK_LEFT){
-			LEFTKey=true;
+		if(e.getKeyCode() == KeyEvent.VK_Q){
+			QKey=true;
 		}
 		if(e.getKeyCode() == KeyEvent.VK_S){
 			SKey=true;
@@ -57,8 +57,8 @@ private boolean EscapeKey ;
 		if(e.getKeyCode() == KeyEvent.VK_Z){
 			ZKey=false;
 		}
-		if(e.getKeyCode() == KeyEvent.VK_LEFT){
-			LEFTKey=false;
+		if(e.getKeyCode() == KeyEvent.VK_Q){
+			QKey=false;
 		}
 		if(e.getKeyCode() == KeyEvent.VK_S){
 			SKey=false;
@@ -87,8 +87,8 @@ private boolean EscapeKey ;
 		return ZKey;
 	}
 	
-	public boolean isLEFTKey() {
-		return LEFTKey;
+	public boolean isQKey() {
+		return QKey;
 	}
 	
 	public boolean isSKey() {

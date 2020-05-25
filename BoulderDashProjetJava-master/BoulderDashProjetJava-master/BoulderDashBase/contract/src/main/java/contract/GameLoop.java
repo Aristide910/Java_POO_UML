@@ -10,8 +10,12 @@ import java.util.Observable;
 import java.util.Observer;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Main loop of the game
+ * 
+ */
 
-public class GameLoop {// main loop of the game
+public class GameLoop {
 	
 	private char[][] c_map; //complete map
 	private char[][] v_map; //map seen by the player
@@ -24,8 +28,11 @@ public class GameLoop {// main loop of the game
 	}
 	
 	static AddEntity AE = new AddEntity();
-	
-	public void createGame(){ //creation and execution of the game
+	/**
+	 * creation and execution of the game
+	 *  Chose the level to be played 
+	 */
+	public void createGame(){ 
 		this.initializeMap(1);
 		
 		
@@ -118,7 +125,7 @@ public class GameLoop {// main loop of the game
 	public void update(){
 		l=Win.getkey(); //we get the keystroke
 		CharacterView cv = new CharacterView(c_map);
-		v_map=cv.getCView(); //we get the player's view, depending on the players Pos.
+		v_map=cv.getCView(); //we get the player's view, depending on the players Position
 		this.testMap(); //
 		c_map = ev.movement(l, c_map);//movement depending on the keystrokes
 		if (ev.getGotDiamond()){//if you catch a diamond, it appears in the count.

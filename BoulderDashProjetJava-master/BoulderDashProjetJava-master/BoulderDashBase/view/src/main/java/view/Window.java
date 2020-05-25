@@ -16,6 +16,10 @@ public class Window extends JFrame implements KeyListener {
 	
 	int key=0;
 	private WindowElements we;
+	/**
+	 * Window's settings
+	 *@return void
+	 */
 	public void Window(ArrayList<Entity> entities)
 	{
 		JFrame win = new JFrame();

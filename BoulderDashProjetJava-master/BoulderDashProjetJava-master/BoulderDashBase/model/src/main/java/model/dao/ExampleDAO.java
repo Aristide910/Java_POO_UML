@@ -15,7 +15,7 @@ import model.Example;
  * @version 1.0
  */
 public class ExampleDAO extends AbstractDAO {
-
+ 
     /** The sql example by id. */
     private String sqlExampleById   = "{call findMapById(?)}";
 

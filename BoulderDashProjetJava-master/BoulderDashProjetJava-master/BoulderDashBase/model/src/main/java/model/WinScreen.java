@@ -7,7 +7,11 @@ import javax.swing.ImageIcon;
 
 
 public class WinScreen extends Entity  {
-
+  /**
+   * 
+   * @param x
+   * @param y
+   */
 	public WinScreen(int x, int y) {
 		super(x, y);
 		// TODO Auto-generated constructor stub
@@ -16,7 +20,10 @@ public class WinScreen extends Entity  {
 	{
 		g2d.drawImage(getWSImg(), x, y, null);
 	}
-	
+	 /**
+	  * Show the game win image
+	  * @return
+	  */
 	public Image getWSImg()
 	{
 		ImageIcon ic = new ImageIcon("Image_jeu/WLScreen/gameWin.jpg");

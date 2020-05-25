@@ -7,6 +7,11 @@ import javax.swing.ImageIcon;
 
 public class Door extends Entity{
 	
+	/**
+	 * 
+	 * @param x
+	 * @param y
+	 */
 	public Door(int x, int y) {
 		super(x, y);
 	}
@@ -14,13 +19,16 @@ public class Door extends Entity{
 	public void update()
 	{
 		
-	}
+	} 
 	
 	public void draw(Graphics2D g2d)
 	{
 		g2d.drawImage(getDoorImg(), x, y, null);
 	}
-	
+	/**
+	 * Shows the image of the door in the game's window
+	 * @return image
+	 */
 	public Image getDoorImg()
 	{
 		ImageIcon ic = new ImageIcon("Image_jeu/Porte/Porte.png");

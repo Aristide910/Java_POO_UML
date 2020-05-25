@@ -12,7 +12,7 @@ public class Entity {
 		this.x = x;
 		this.y = y;
 	}
-	
+
 
 	public void update()
 	{

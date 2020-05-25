@@ -6,14 +6,18 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 
 public class PuffPuff extends Entity{
-	
+	/**
+	 * 
+	 * @param x
+	 * @param y
+	 */
 	public PuffPuff(int x, int y) {
 		super(x, y);
 	}
 
 	public void update()
 	{
-		
+		 
 	}
 	
 	public void draw(Graphics2D g2d)

@@ -14,7 +14,11 @@ public class Mapping {
 	public String getMap(){
 		return carte;
 	}
-	
+       /**
+        * 
+        * @param lvl
+        * @return
+        */
 	public char[][] loadMap(int lvl){
 		
 		ExampleDAO bddfetch = new ExampleDAO();

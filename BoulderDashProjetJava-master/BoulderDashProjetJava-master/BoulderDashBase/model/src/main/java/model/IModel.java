@@ -10,7 +10,7 @@ import java.util.List;
  * @version 1.0
  */
 public interface IModel {
-
+  
     /**
      * Gets the example by id.
      *
