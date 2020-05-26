@@ -4,7 +4,11 @@ import java.awt.Image;
 
 import javax.swing.ImageIcon;
 
-
+/**
+ * @see Entity
+ * @author DUVAL FOTSO
+ *
+ */
 
 public class LostScreen extends Entity  {
 /**

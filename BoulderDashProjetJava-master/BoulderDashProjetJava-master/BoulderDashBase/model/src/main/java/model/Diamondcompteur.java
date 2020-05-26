@@ -10,6 +10,7 @@ import javax.swing.ImageIcon;
 public class Diamondcompteur extends Entity{
 /**
  * Count the number of Diamods collected
+ * @author MIRLEINE BOUANGA
  */
 	private int DC;
 	public Diamondcompteur(int DC,int x, int y) {

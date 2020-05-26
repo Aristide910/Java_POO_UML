@@ -8,7 +8,10 @@ public class AddEntity {
 
 	ArrayList<Entity> entities = new ArrayList<Entity>();
 
-	
+	/**
+	 * @author ARISTIDE KOLOKO
+	 * @param e
+	 */
 	public void addEntity(Entity e)
 	{
 		entities.add(e);

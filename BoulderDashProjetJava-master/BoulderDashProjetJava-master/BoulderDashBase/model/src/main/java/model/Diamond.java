@@ -7,7 +7,7 @@ import javax.swing.ImageIcon;
 
 public class Diamond extends Entity{
 /**
- * 
+ * @author MIRLEINE BOUANGA
  * @param x
  * @param y
  */

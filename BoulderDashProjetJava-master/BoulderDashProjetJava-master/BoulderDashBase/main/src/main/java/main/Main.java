@@ -8,7 +8,7 @@ import contract.GameLoop;
 
 public abstract class Main {
 /**
- * 
+ * @author ARISTIDE KOLOKO
  * @param args
  */
 	

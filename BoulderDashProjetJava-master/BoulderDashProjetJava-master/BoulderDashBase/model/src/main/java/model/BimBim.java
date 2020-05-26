@@ -4,7 +4,12 @@ import java.awt.Graphics2D;
 import java.awt.Image;
 
 import javax.swing.ImageIcon;
-
+/**
+ * 
+ * @author MIRLEINE BOUANGA
+ * @see Entity
+ *
+ */
 public class BimBim extends Entity{
 	
 	public BimBim(int x, int y) {

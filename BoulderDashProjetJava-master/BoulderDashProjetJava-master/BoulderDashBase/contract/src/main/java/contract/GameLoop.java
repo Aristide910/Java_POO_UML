@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Main loop of the game
- * 
+ * @author ARISTIDE KOLOKO KALEU
  */
 
 public class GameLoop {
@@ -29,6 +29,7 @@ public class GameLoop {
 	
 	static AddEntity AE = new AddEntity();
 	/**
+	 * @author ARISTIDE KOLOKO
 	 * creation and execution of the game
 	 *  Chose the level to be played 
 	 */

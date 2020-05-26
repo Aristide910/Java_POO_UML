@@ -8,9 +8,10 @@ import javax.swing.ImageIcon;
 
 public class UnbreakableWall extends Entity{
 	/**
-	 * 
+	 * @author DUVAL FOTSO
 	 * @param x
 	 * @param y
+	 * print the wall's image
 	 */
 	public UnbreakableWall(int x, int y) {
 		super(x, y);

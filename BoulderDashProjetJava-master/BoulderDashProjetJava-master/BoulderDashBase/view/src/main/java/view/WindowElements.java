@@ -1,6 +1,6 @@
 package view;
 
-import java.awt.Color;
+import java.awt.Color; 
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Image;
@@ -18,6 +18,12 @@ import javax.swing.Timer;
 
 import model.Entity;
 import model.Player;
+/**
+ * 
+ * @author DUVAL FOTSO
+ * 
+ *
+ */
 
 public class WindowElements extends JPanel implements ActionListener{
 

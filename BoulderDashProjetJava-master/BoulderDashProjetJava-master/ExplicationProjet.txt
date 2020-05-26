@@ -1,4 +1,4 @@
-Bonjour Julio et Emma,
+Bonjour 
 Vous trouverez sur ce nouveau GIT, la version de notre projet compilant bien.
 
 INSTALLATION:

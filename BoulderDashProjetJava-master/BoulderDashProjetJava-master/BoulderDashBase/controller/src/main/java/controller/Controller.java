@@ -5,6 +5,8 @@ import java.awt.event.KeyListener;
 import java.util.Observable;
 /**
  * The Class Controller.
+ * @author ARISTIDE KOLOKO
+ * 
  */
 public class Controller implements KeyListener{
 

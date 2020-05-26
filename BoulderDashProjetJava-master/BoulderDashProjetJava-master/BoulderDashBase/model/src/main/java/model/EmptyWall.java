@@ -4,7 +4,11 @@ import java.awt.Graphics2D;
 import java.awt.Image;
 
 import javax.swing.ImageIcon;
-
+/**
+ * @param x,y
+ * @author MIRLEINE BOUANGA
+ *
+ */
 public class EmptyWall extends Entity {
 
 	

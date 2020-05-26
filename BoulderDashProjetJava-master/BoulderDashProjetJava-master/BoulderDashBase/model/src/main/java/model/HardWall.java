@@ -8,7 +8,7 @@ import javax.swing.ImageIcon;
 
 public class HardWall extends Entity{
 /**
- * 
+ * @author MIRLEINE BOUANGA
  * @param x
  * @param y
  */

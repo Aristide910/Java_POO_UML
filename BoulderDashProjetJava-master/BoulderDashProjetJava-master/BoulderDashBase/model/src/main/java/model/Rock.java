@@ -7,7 +7,7 @@ import javax.swing.ImageIcon;
 
 public class Rock extends Entity{
       /**
-       * 
+       * @author DUVAL FOTSO 
        * @param x
        * @param y
        */

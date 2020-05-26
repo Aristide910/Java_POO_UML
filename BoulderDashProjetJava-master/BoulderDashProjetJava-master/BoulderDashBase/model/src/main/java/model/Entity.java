@@ -1,7 +1,12 @@
 package model;
 
 import java.awt.Graphics2D;
-
+/**
+ * 
+ * @author MIRLEINE BOUANGA
+ * @param x,y
+ *
+ */
 public class Entity {
 
 	protected int x;

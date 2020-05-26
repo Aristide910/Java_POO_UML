@@ -14,6 +14,7 @@ public class Example {
     private String    name;
 
     /**
+     * @author ARISTIDE KOLOKO 
      * Instantiates a new example.
      *
      * @param id
@@ -28,6 +29,7 @@ public class Example {
     }
 
     /**
+     * @author ARISTIDE KOLOKO
      * Gets the id.
      *
      * @return the id
@@ -37,6 +39,7 @@ public class Example {
     }
 
     /**
+     * @author ARISTIDE KOLOKO
      * Gets the name.
      *
      * @return the name
@@ -46,6 +49,7 @@ public class Example {
     }
 
     /**
+     * @author ARISTIDE KOLOKO
      * Sets the name.
      *
      * @param name
@@ -55,7 +59,8 @@ public class Example {
         this.name = name;
     }
 
-    /*
+    /**
+     * @author ARISTIDE KOLOKO
      * (non-Javadoc)
      * @see java.lang.Object#toString()
      */

@@ -10,7 +10,7 @@ public class Player extends Entity{
 
 	int NbDiamTaken=0;
 /**
- * 
+ * @author DUVAL FOTSO FOALENG
  * @param x
  * @param y
  */

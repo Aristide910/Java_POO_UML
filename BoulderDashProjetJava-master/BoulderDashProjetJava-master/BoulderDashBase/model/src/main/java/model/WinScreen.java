@@ -8,7 +8,7 @@ import javax.swing.ImageIcon;
 
 public class WinScreen extends Entity  {
   /**
-   * 
+   * @author DUVAL FOTSO
    * @param x
    * @param y
    */

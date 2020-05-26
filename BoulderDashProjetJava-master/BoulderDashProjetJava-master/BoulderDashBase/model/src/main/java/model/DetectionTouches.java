@@ -3,7 +3,11 @@ package model;
 import java.awt.event.KeyEvent; 
 import java.awt.event.KeyListener;
 
-
+/**
+ * 
+ * @author MIRLEINE BOUANGA
+ *
+ */
 public class DetectionTouches implements KeyListener{
 
 private boolean ZKey ;

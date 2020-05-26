@@ -1,7 +1,13 @@
 package controller;
-import java.util.Random;
+import java.util.Random; 
 import java.util.concurrent.TimeUnit;
 
+
+/**
+ * These classes determine the events that happens in the game 
+ * @author ARISTIDE KOLOKO
+ *@see Controller
+ */
 public class Event  {
 		
 	private boolean gameLost=false;

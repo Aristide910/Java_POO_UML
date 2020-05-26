@@ -1,5 +1,9 @@
 package model;
-
+/**
+ * determines the character's view when he changes position 
+ * @author MIRLEINE BOUANGA
+ *
+ */
 public class CharacterView {
 
 	char[][] CView = new char[15][15];

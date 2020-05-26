@@ -7,7 +7,10 @@ import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
 
-
+/**
+ * @author DUVAL FOTSO FOALENG
+ *
+ */
 public class Panel extends JPanel {
 
 	public void painComponent(Graphics g)

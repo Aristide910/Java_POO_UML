@@ -7,7 +7,7 @@ import javax.swing.ImageIcon;
 
 public class FlapFlap extends Entity {
 /**
- * 
+ * @author MIRLEINE BOUANGA
  * @param x
  * @param y
  */

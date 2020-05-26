@@ -7,7 +7,7 @@ import javax.swing.ImageIcon;
 
 public class PuffPuff extends Entity{
 	/**
-	 * 
+	 * @author DUVAL FOTSO 
 	 * @param x
 	 * @param y
 	 */

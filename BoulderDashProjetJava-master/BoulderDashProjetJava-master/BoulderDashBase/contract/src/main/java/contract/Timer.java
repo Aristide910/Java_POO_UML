@@ -4,7 +4,10 @@ package contract;
 public class Timer {
 
 	private int time;
-
+/**
+ * @author ARISTIDE KOLOKO KALEU
+ * @return time
+ */
 	public int getTime() {
 		return time;
 	}

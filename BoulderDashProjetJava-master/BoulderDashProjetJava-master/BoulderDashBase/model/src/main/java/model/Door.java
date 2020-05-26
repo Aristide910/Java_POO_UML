@@ -8,9 +8,11 @@ import javax.swing.ImageIcon;
 public class Door extends Entity{
 	
 	/**
-	 * 
+	 * @author MIRLEINE BOUANGA
 	 * @param x
 	 * @param y
+	 * @see Entity
+	 * 
 	 */
 	public Door(int x, int y) {
 		super(x, y);
