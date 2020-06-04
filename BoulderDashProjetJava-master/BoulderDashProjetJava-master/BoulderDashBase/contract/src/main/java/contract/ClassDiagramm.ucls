@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="contract.Timer" project="contract" 
     file="/contract/src/main/java/contract/Timer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="160" width="140" x="674" y="46"/>    
+    <position height="-1" width="-1" x="784" y="118"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      

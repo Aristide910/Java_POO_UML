@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="controller.Controller" project="controller" 
     file="/controller/src/main/java/controller/Controller.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="898" y="194"/>    
+    <position height="-1" width="-1" x="931" y="189"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
