@@ -12,7 +12,7 @@
   </interface>  
   <class id="2" language="java" name="controller.ControllerFacade" project="controller" 
     file="/controller/src/main/java/controller/ControllerFacade.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="160" width="204" x="267" y="64"/>    
+    <position height="-1" width="-1" x="366" y="147"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="controller.Controller" project="controller" 
     file="/controller/src/main/java/controller/Controller.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="268" width="190" x="778" y="64"/>    
+    <position height="-1" width="-1" x="898" y="194"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -46,22 +46,22 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <realization id="6">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
-  </realization>  
-  <association id="7">    
+  <association id="6">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="8" name="view">        
+      <attribute id="7" name="view">        
         <position height="0" width="0" x="-39" y="-6"/>      
       </attribute>      
-      <multiplicity id="9" minimum="0" maximum="1">        
+      <multiplicity id="8" minimum="0" maximum="1">        
         <position height="0" width="0" x="-39" y="-6"/>      
       </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
+  <realization id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
