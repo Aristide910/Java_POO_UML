@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <interface id="1" language="java" name="controller.IController" project="contract" 
     file="/contract/src/main/java/controller/IController.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="70" width="120" x="480" y="142"/>    
+    <position height="-1" width="-1" x="419" y="179"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      

@@ -15,6 +15,7 @@ public class BimBim extends Entity{
 	public BimBim(int x, int y) {
 		super(x, y);
 	}
+	
 
 	public void update()
 	{

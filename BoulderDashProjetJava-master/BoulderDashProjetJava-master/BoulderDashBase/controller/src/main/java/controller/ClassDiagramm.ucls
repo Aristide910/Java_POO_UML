@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <interface id="1" language="java" name="controller.IController" project="controller" 
     file="/controller/src/main/java/controller/IController.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="70" width="120" x="267" y="372"/>    
+    <position height="-1" width="-1" x="279" y="406"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,25 +39,29 @@
   </class>  
   <interface id="5" language="java" name="controller.IView" project="controller" 
     file="/controller/src/main/java/controller/IView.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="88" width="188" x="427" y="372"/>    
+    <position height="-1" width="-1" x="482" y="410"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <association id="6">    
+  <realization id="6">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="7">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="7" name="view"/>      
-      <multiplicity id="8" minimum="0" maximum="1"/>    
+      <attribute id="8" name="view">        
+        <position height="0" width="0" x="-39" y="-6"/>      
+      </attribute>      
+      <multiplicity id="9" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-39" y="-6"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <realization id="9">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="1"/>  
-  </realization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

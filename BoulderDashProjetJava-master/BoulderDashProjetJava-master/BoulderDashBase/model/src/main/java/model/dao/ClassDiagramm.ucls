@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="model.dao.ExampleDAO" project="model" 
     file="/model/src/main/java/model/dao/ExampleDAO.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="232" width="242" x="226" y="468"/>    
+    <position height="-1" width="-1" x="423" y="577"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,25 +21,29 @@
   </class>  
   <class id="3" language="java" name="model.dao.AbstractDAO" project="model" 
     file="/model/src/main/java/model/dao/AbstractDAO.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="141" width="243" x="226" y="60"/>    
+    <position height="-1" width="-1" x="417" y="128"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="4">    
+  <generalization id="4">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="5">    
     <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="5" name="instance"/>      
-      <multiplicity id="6" minimum="0" maximum="1"/>    
+      <attribute id="6" name="instance">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="7" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="2" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <generalization id="7">    
-    <end type="SOURCE" refId="1"/>    
-    <end type="TARGET" refId="3"/>  
-  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
