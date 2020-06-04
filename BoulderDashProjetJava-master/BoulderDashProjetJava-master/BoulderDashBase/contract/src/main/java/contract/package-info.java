@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Aristide
- *
- */
-package contract;
-

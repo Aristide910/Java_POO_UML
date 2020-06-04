@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * @author Geoffroy
- *
- */
-package contract;
